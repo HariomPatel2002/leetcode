@@ -1,12 +1,18 @@
 class Solution {
 public:
     string reversePrefix(string word, char ch) {
-         int index = word.find(ch);
-        if (index == string::npos) {
-            return word; // Character not found, return original word
-        } else {
-            reverse(word.begin(), word.begin() + index + 1);
-            return word;
+         string str;
+        int i = 0;
+        for (auto it : word) {
+            if (it == ch) {
+                str += it;
+                reverse(str.begin(), str.end());
+                str += word.substr(i + 1); // Include the character 'ch'
+                return str;
+            }
+            i++;
+            str += it;
         }
+        return word; //
     }
 };
