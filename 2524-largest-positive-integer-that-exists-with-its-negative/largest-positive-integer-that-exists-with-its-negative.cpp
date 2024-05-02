@@ -1,25 +1,19 @@
 class Solution {
 public:
     int findMaxK(vector<int>& nums) {
-        unordered_set<int>s;
-        vector<int>arr;
-        for(auto it:nums){
-            s.insert(it);
-        }
-        for(auto it :nums){
-            if(s.find(-it)!=s.end()){
-                arr.push_back(it);
+        std::unordered_set<int> s(nums.begin(), nums.end()); // Store nums in a set
+        std::vector<int> arr;
+
+        for (int num : nums) {
+            if (s.find(-num) != s.end()) { // Check if -num exists in the set
+                arr.push_back(num); // Store num in arr if -num exists
             }
         }
-        if(arr.empty()){
+
+        if (arr.empty()) {
             return -1;
         }
-        int m = INT_MIN;
-        for(auto it :arr){
-            if(it>m){
-                m = it;
-            }
-        }
-        return m;
+
+        return *std::max_element(arr.begin(), arr.end());
     }
 };
