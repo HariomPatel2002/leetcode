@@ -36,8 +36,7 @@ public:
             str2+=k;
             s2.pop();
         }
-        reverse(str1.begin(),str1.end());
-        reverse(str2.begin(),str2.end());
+        
         if(str1==str2) return true;
         else return false;
     }
