@@ -29,7 +29,7 @@ public:
         while(temp!=NULL)
         {
             int data = temp->val;
-            temp->val = (temp->val*2+crry)%10;
+            temp->val = (data*2+crry)%10;
             crry = (data*2 + crry)/10;
             if(temp->next==NULL)
             {
