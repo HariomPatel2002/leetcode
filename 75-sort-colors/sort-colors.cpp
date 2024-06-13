@@ -1,30 +1,20 @@
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
-        vector<int>arr0;
-        vector<int>arr1;
-        vector<int>arr2;
-        vector<int>arr;
-        for(auto it :nums){
-            arr.push_back(it);
+        int low =0,mid=0,high=nums.size()-1;
+        while(mid<=high){
+            if(nums[mid]==0){
+                swap(nums[low],nums[mid]);
+                mid++;
+                low++;
+            }
+            else if(nums[mid]==1){
+                mid++;
+            }
+            else{
+                swap(nums[mid],nums[high]);
+                high--;
+            }
         }
-        nums.clear();
-        for(auto it :arr){
-            if(it==0){arr0.push_back(it);}
-            else if(it==1){arr1.push_back(it);}
-            else {arr2.push_back(it);}
-        }
-        
-        for(auto it :arr0){
-            nums.push_back(it);
-        }
-        for(auto it :arr1){
-            nums.push_back(it);
-        }
-        for(auto it :arr2){
-            nums.push_back(it);
-        }
-        
-        
     }
 };
