@@ -1,68 +1,53 @@
 # LeetCode Journey 🚀
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" width="120" />
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" width="100" />
+</p>
+
+---
 
 ## 👋 About Me
-
-Hi, I'm **Hariom Patel**, a passionate **Full Stack Developer (MERN)** who loves solving problems, building products, and improving every day through consistency.
-
----
-
-## 💡 My LeetCode Journey
-
-* 🔥 **200+ LeetCode Problems Solved**
-* 📆 **50+ Days Streak** (never giving up!)
-* 🧠 Focused on Data Structures & Algorithms
-* 🏆 Improving problem‑solving skills daily
+Hi, I'm **Hariom Patel**, a passionate **Full Stack Developer (MERN)** who loves solving problems and improving every day through consistency.
 
 ---
 
-## 💻 Languages I Use for LeetCode
-
-### 🔹 C++
-
-```cpp
-#include <iostream>
-using namespace std;
-int main(){
-    cout << "Hello LeetCode in C++";
-    return 0;
-}
-```
-
-### 🔹 C
-
-```c
-#include <stdio.h>
-int main() {
-    printf("Hello LeetCode in C");
-    return 0;
-}
-```
+## 💡 My LeetCode Stats
+- 🔥 **200+ Problems Solved**
+- 🧠 Focused on **Data Structures & Algorithms**
+- 💻 Solving in **C++** and **C**
+- 🏆 Improving problem-solving skills daily
 
 ---
 
-## 📊 My Coding Interests
+## 📂 Topics Covered
 
-* Data Structures (Arrays, LinkedList, Trees, DP)
-* Algorithms (Greedy, Backtracking, Two Pointer, Sliding Window)
-* System Design Basics
-* MERN Stack Development
+| Topic | Status |
+|---|---|
+| Arrays & Strings | ✅ |
+| Linked List | ✅ |
+| Trees & Graphs | 🔄 |
+| Dynamic Programming | 🔄 |
+| Greedy & Backtracking | 🔄 |
+| Two Pointer & Sliding Window | ✅ |
+
+---
+
+## 💻 Languages Used
+
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
 ---
 
 ## ✨ My Vision
-
-I aim to be a **top‑tier problem solver**, write clean and optimized solutions, and eventually crack big opportunities in tech.
-
----
-
-## 📫 Contact
-
-* **Name:** Hariom Patel
-* **Tech Stack:** MERN, JavaScript, Node.js, React, C++, C
-* **Goal:** Write clean code, solve smart, and stay consistent ⚡
+To be a **top-tier problem solver**, write clean optimized solutions, and crack big opportunities in tech.
 
 ---
 
-### ⭐ If you're reading this — Keep coding, keep grinding and never stop learning!
+## 📫 Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hariom-patel-74b0b124a/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HariomPatel2002)
+
+---
+
+> ⭐ Keep coding, keep grinding and never stop learning!
